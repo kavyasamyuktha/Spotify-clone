@@ -23,35 +23,20 @@ It includes functionalities for creating, browsing, and removing albums, as well
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/nuricanbrdmr/Spotify-Clone-MERN-Website.git
-    cd Spotify-Clone-MERN-Website
-    ```
-
-2. Set up environment variables:
-    Create a `.env` file in the root directory and add the following:
-    ```plaintext
-    MONGO_URI=your_mongodb_uri
-    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-    CLOUDINARY_API_KEY=your_cloudinary_api_key
-    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-    ```
-
-3. Run the backend server:
+1. Run the backend server:
     ```bash
     cd spotify-backend
     npm install
     npm start
     ```
-4. Run the backend server:
+2. Run the backend server:
     ```bash
     cd spotify-admin
     npm install
     npm run dev
     ```
 
-5. Run the frontend:
+3. Run the frontend:
     ```bash
     cd spotify-frontend
     npm install
@@ -77,7 +62,3 @@ It includes functionalities for creating, browsing, and removing albums, as well
 
 ### Album Page
 ![Screenshot_4](https://github.com/user-attachments/assets/33e1dcdb-f794-4b1e-82cc-3c588c4b23c1)
-
-## References
-
-I used [GreatStack YouTube channel](https://www.youtube.com/@GreatStackDev) to develop this project. Thank you for the useful content.
